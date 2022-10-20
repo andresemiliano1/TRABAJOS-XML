@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Andres Emiliano Ramos Gimenez -->
+<!DOCTYPE libros [
+    <!ELEMENT libros (libreria+)>
+    <!ELEMENT libreria (nombrelibreria, libro+)>
+    <!ELEMENT nombrelibreria (#PCDATA)>
+    <!ELEMENT libro (ISBN,titulo,nivel?,autor,editorial,fecha_publicacion,web?,precio)>
+    <!ELEMENT ISBN (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT nivel (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT fecha_publicacion (#PCDATA)>
+    <!ELEMENT web (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio moneda CDATA #IMPLIED>
+]>
+
+<libros>
+
+    <libreria>
+        <nombrelibreria>Babel</nombrelibreria>
+        <libro>
+            <ISBN>9788420542454</ISBN>
+            <titulo>Curso De Xml</titulo>
+            <nivel>básico</nivel>
+            <autor>Gregorio Martín</autor>
+            <editorial>Prentice Hall</editorial>
+            <fecha_publicacion>03/2005</fecha_publicacion>
+            <web />
+            <precio moneda="Euro">29,90</precio>
+        </libro>
+
+        <libro>
+            <ISBN>9788441518261</ISBN>
+            <titulo>XML (Edición revisada y ampliada 2005)</titulo>
+            <nivel>básico</nivel>
+            <autor>Óscar González</autor>
+            <editorial>Anaya Multimedia</editorial>
+            <fecha_publicacion>03/2005</fecha_publicacion>
+            <web />
+            <precio moneda="Euro">14,00</precio>
+        </libro>
+
+        <libro>
+            <ISBN>9788441515765</ISBN>
+            <titulo>XML</titulo>
+            <nivel>intermedio</nivel>
+            <autor>Juan Diego Gutiérrez Gallardo</autor>
+            <editorial>Anaya Multimedia</editorial>
+            <fecha_publicacion>04/2005</fecha_publicacion>
+            <web />
+            <precio moneda="Euro"> 25,4</precio>
+        </libro>
+    </libreria>
+
+    <libreria>
+        <nombrelibreria>La casa del libro</nombrelibreria>
+
+        <libro>
+            <ISBN>9782746049581</ISBN>
+            <titulo> XML PRACTICO. BASES ESENCIALES, CONCEPTOS Y CASOS PRACTICOS</titulo>
+            <nivel>básico</nivel>
+            <autor> BOULANGER, THIERRY</autor>
+            <editorial>ENI</editorial>
+            <fecha_publicacion>2005</fecha_publicacion>
+            <web />
+            <precio moneda="Euro">26,96</precio>
+        </libro>
+
+        <libro>
+            <ISBN>9788441511866</ISBN>
+            <titulo>PROGRAMACION CON XML</titulo>
+            <nivel>básico</nivel>
+            <autor>EITO BRUN, RICARDO</autor>
+            <editorial>ANAYA MULTIMEDIA</editorial>
+            <fecha_publicacion>2001</fecha_publicacion>
+            <web />
+            <precio moneda="Euro">45,55</precio>
+        </libro>
+
+        <libro>
+            <ISBN>9788441511866</ISBN>
+            <titulo>PROGRAMACION CON XML</titulo>
+            <nivel>básico</nivel>
+            <autor>EITO BRUN, RICARDO</autor>
+            <editorial>ANAYA MULTIMEDIA</editorial>
+            <fecha_publicacion>2001</fecha_publicacion>
+            <web />
+            <precio moneda="Euro">45,55</precio>
+        </libro>
+    </libreria>
+</libros>
