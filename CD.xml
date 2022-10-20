@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Andres Emiliano Ramos Gimenez -->
 <!DOCTYPE musica [
     <!ELEMENT musica (album+)>
     <!ELEMENT album (titulo_album, artista+, discografica?, fecha_publicacion, ISRC, cd+, imagen)>
