@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plataforma [
+        <!ELEMENT plataforma (nombre|series)*>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT series (serie)*>
+        <!ELEMENT serie (titulo|temporada)*>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT temporada (numero|episodio)*>
+        <!ELEMENT numero (#PCDATA)>
+        <!ELEMENT episodio (numero|titulo)*>
+        ]>
+<plataforma>
+    <nombre>Netflix</nombre>
+    <series>
+        <serie>
+            <titulo>Stranger Thing</titulo>
+            <temporada>
+                <numero>1</numero>
+                <episodio>
+                    <numero>1</numero>
+                    <titulo>La desaparicion de Bill Byers</titulo>
+                </episodio>
+                <episodio>
+                    <numero>2</numero>
+                    <titulo>La loca de la calle Maple</titulo>
+                </episodio>
+            </temporada>
+        </serie>
+    </series>
+</plataforma>
