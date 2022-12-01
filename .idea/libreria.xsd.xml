@@ -1,0 +1,14 @@
+<libros>
+  <libreria>
+    <nombrelibreria>string</nombrelibreria>
+    <libro>
+      <ISBN>000-000-00-0000-0</ISBN>
+      <titulo>string</titulo>
+      <nivel>string</nivel>
+      <autor>string</autor>
+      <editorial>string</editorial>
+      <fecha_publicacion>20/07/1995</fecha_publicacion>
+      <precio moneda="string">30</precio>
+    </libro>
+  </libreria>
+</libros>

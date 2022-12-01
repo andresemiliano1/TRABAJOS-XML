@@ -1,0 +1,16 @@
+<oferta>
+  <!--Zero or more repetitions:-->
+  <vehiculo>
+    <marca>string</marca>
+    <modelo color="string">string</modelo>
+    <motor combustible="string">string</motor>
+    <matricula>string</matricula>
+    <kilometros>string</kilometros>
+    <precio_inicial>string</precio_inicial>
+    <precio_oferta>string</precio_oferta>
+    <!--Zero or more repetitions:-->
+    <extra valor="string">string</extra>
+    <!--Zero or more repetitions:-->
+    <foto imagen="string">string</foto>
+  </vehiculo>
+</oferta>

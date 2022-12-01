@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Andres Emiliano Ramos Gimenez -->
+<!DOCTYPE libros [
+        <!ELEMENT libros (libreria+)>
+        <!ELEMENT libreria (nombrelibreria, libro+)>
+        <!ELEMENT nombrelibreria (#PCDATA)>
+        <!ELEMENT libro (ISBN,titulo,nivel,autor,editorial,fecha_publicacion,web?,precio)>
+        <!ELEMENT ISBN (#PCDATA)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT nivel (#PCDATA)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT editorial (#PCDATA)>
+        <!ELEMENT fecha_publicacion (#PCDATA)>
+        <!ELEMENT web (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ATTLIST precio moneda CDATA #IMPLIED>
+        ]>
+
+<libros>
+    <libreria>
+        <nombrelibreria></nombrelibreria>
+        <libro>
+            <ISBN></ISBN>
+            <titulo></titulo>
+            <nivel></nivel>
+            <autor></autor>
+            <editorial></editorial>
+            <fecha_publicacion></fecha_publicacion>
+            <precio moneda="Euro"></precio>
+        </libro>
+    </libreria>
+</libros>
